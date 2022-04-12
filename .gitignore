@@ -1,0 +1,34 @@
+src/*.exe
+src/hefetecoin
+src/hefetecoind
+src/test_hefetecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.hefetecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+hefetecoin-qt
+Hefetecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+hefetecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
